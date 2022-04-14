@@ -24,6 +24,7 @@ const Intro = () => {
         </div>
       </div>
       <div className="i-right">
+        <div className="i-bg"></div>
         <img
           src="https://res.cloudinary.com/dqexqyy2j/image/upload/v1649958239/IMG_7284_vsuzhd-jpg_j8ndyv.jpg"
           alt="my-pic"
