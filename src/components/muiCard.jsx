@@ -1,33 +1,56 @@
 import * as React from "react";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
+import Stack from "@mui/material/Stack";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
 
-export default function MediaCard() {
+export default function MediaCard({
+  imageURL,
+  title,
+  body,
+  usedLanguages,
+  gitURL,
+  appURL,
+  key,
+}) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
-        alt="green iguana"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Lizard
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
-      </CardActions>
-    </Card>
+    <Box sx={{ m: 1 }}>
+      <Card sx={{ maxWidth: 345 }}>
+        <CardMedia
+          component="img"
+          height="200"
+          image={imageURL}
+          alt="projectScreenshot"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            {title}
+          </Typography>
+          <Box marginBottom="8px">
+            <Typography variant="body2" color="text.secondary">
+              {body}
+            </Typography>
+          </Box>
+          <Typography variant="body2" color="text.secondary">
+            Used: {usedLanguages}
+          </Typography>
+          <Box justifyContent="center" margin="5px">
+            <Stack spacing={2} direction="row">
+              {appURL && (
+                <Button variant="contained" href={appURL} target="_blank">
+                  See App
+                </Button>
+              )}
+              <Button variant="contained" href={gitURL} target="_blank">
+                GitHub Repo
+              </Button>
+            </Stack>
+          </Box>
+        </CardContent>
+      </Card>
+    </Box>
   );
 }

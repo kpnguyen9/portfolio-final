@@ -15,12 +15,12 @@ const Intro = () => {
               <div className="i-title-item">Communicator</div>
             </div>
           </div>
-          <div className="i-description">
+          {/* <div className="i-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
             dolorem libero aliquam consequatur maxime nam molestiae. Error
             ratione aut quae velit tenetur maiores distinctio blanditiis,
             ducimus quod iste similique totam.
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="i-right">

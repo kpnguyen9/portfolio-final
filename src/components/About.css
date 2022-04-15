@@ -1,7 +1,8 @@
 .a {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
+  background-color: beige;
 }
 
 .a-left {
