@@ -17,7 +17,7 @@ export default function MediaCard({
   key,
 }) {
   return (
-    <Box sx={{ m: 1 }}>
+    <Box sx={{ m: 5 }} key={key}>
       <Card sx={{ maxWidth: 345 }}>
         <CardMedia
           component="img"
