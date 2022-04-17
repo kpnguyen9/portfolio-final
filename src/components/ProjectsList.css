@@ -4,7 +4,8 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  /* background-color: #276152; */
+  background-color: #54695e;
+  color: aliceblue;
 }
 
 .pl-texts {

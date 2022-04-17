@@ -3,7 +3,7 @@ import Pdf from "../resume/KN-Resume.pdf";
 
 const Contact = () => {
   return (
-    <div className="c">
+    <div className="c" id="contact-section">
       <div className="c-wrapper">
         <h1 className="c-title">Let's Work Together!</h1>
       </div>

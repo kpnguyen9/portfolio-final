@@ -1,11 +1,12 @@
 .i {
   display: flex;
-  height: 100vh;
+  height: 80vh;
 }
 .i-left {
   flex: 1;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .i-right {
@@ -83,4 +84,11 @@
   position: absolute;
   top: 0;
   right: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .i {
+    flex-direction: column;
+    height: 100vh;
+  }
 }

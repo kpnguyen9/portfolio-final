@@ -5,7 +5,7 @@ import myProjects from "../data/db.json";
 const ProjectsList = () => {
   const Projects = myProjects.projects;
   return (
-    <div className="pl">
+    <div className="pl" id="projects-section">
       <div className="pl-texts">
         <h1>Projects</h1>
       </div>

@@ -1,11 +1,9 @@
 .c {
-  height: 50vh;
   position: relative;
-  background-color: bisque;
+  background-color: #baffdb;
 }
 
 .c-wrapper {
-  padding: 50px;
   display: flex;
 }
 
@@ -18,6 +16,7 @@
 .c-info {
   flex: 1;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .icon-links {

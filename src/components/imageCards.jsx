@@ -1,37 +1,21 @@
 import * as React from "react";
-import ImageList from "@mui/material/ImageList";
-import ImageListItem from "@mui/material/ImageListItem";
-import Box from "@mui/material/Box";
 
 export default function ImageCards() {
   return (
-    <ImageList cols={6}>
+    <div className="skills-container">
       {data.map((item) => (
-        <ImageListItem key={item.img}>
-          <Box
-            sx={{
-              m: 3,
-            }}
-          >
-            <img
-              src={`${item.imageURL}?w=164&h=164&fit=crop&auto=format`}
-              srcSet={`${item.imageURL}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              alt={item.title}
-              loading="lazy"
-            />
-          </Box>
-        </ImageListItem>
+        <img
+          src={`${item.imageURL}?w=164&h=164&fit=crop&auto=format`}
+          srcSet={`${item.imageURL}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+          alt={item.title}
+          loading="lazy"
+        />
       ))}
-    </ImageList>
+    </div>
   );
 }
 
 const data = [
-  {
-    imageURL:
-      "https://res.cloudinary.com/dqexqyy2j/image/upload/v1650122076/logos/mongodb_2_cculfj.png",
-    title: "MongoDB",
-  },
   {
     imageURL:
       "https://res.cloudinary.com/dqexqyy2j/image/upload/v1650122076/logos/javascript_mxf8g5.png",
@@ -44,18 +28,24 @@ const data = [
   },
   {
     imageURL:
-      "https://res.cloudinary.com/dqexqyy2j/image/upload/v1650122076/logos/express_k2br9h.png",
-    title: "Express",
-  },
-  {
-    imageURL:
       "https://res.cloudinary.com/dqexqyy2j/image/upload/v1650122076/logos/node_zyepjj.png",
     title: "Node",
   },
   {
     imageURL:
+      "https://res.cloudinary.com/dqexqyy2j/image/upload/v1650122076/logos/express_k2br9h.png",
+    title: "Express",
+  },
+
+  {
+    imageURL:
       "https://res.cloudinary.com/dqexqyy2j/image/upload/v1650122075/logos/sql_o8xuyz.png",
     title: "SQL",
+  },
+  {
+    imageURL:
+      "https://res.cloudinary.com/dqexqyy2j/image/upload/v1650122076/logos/mongodb_2_cculfj.png",
+    title: "MongoDB",
   },
   {
     imageURL:
