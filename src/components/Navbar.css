@@ -1,0 +1,9 @@
+@media screen and (max-width: 800px) {
+  .navName {
+    display: none;
+  }
+
+  .linkTabs {
+    justify-content: center;
+  }
+}
