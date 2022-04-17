@@ -1,0 +1,19 @@
+.a {
+  padding: 50px;
+  padding-top: 5px;
+  background-color: #baffdb;
+}
+
+.a-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 4em;
+}
+
+.imageList {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: auto;
+  justify-content: center;
+}

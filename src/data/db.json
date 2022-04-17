@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "imageURL": "https://res.cloudinary.com/dqexqyy2j/image/upload/v1649906116/logos/Project%20Screenshots/Screen_Shot_2022-04-13_at_10.14.31_PM_bwp6kn.png",
+      "title": "Git 'Er Dun",
+      "body": "Back-End web app that allows users to create custom To-Do lists in their personal accounts. The app features the ability to add, delete, and edit user list titles and tasks along with authentication upon user log-in and registration of new accounts.",
+      "used": "JavaScript, Express, Node, MongoDB, EJS Templating, HTML, CSS, BootStrap, JWT",
+      "gitHubURL": "https://github.com/kpnguyen9/BackendGiterdun",
+      "id": 1
+    },
+    {
+      "imageURL": "https://res.cloudinary.com/dqexqyy2j/image/upload/v1649906116/logos/Project%20Screenshots/Screen_Shot_2022-04-13_at_10.12.13_PM_oqgvho.png",
+      "title": "Happy Campers",
+      "body": "Front-End web app that allows users to find campsites upon user input of the National Park of their choice. The app lists out relevant National Parks. When the user selects a park, the app renders a list of associated campsites with details and links to make reservations. The current weather forecast of the park is also rendered. ",
+      "used": "JavaScript, HTML5, CSS, BootStrap",
+      "gitHubURL": "https://github.com/kpnguyen9/firstGroupProject",
+      "appURL": "https://happy-campers-app-working.netlify.app/",
+      "id": 2
+    }
+  ]
+}

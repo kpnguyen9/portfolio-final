@@ -15,15 +15,16 @@ const Intro = () => {
               <div className="i-title-item">Communicator</div>
             </div>
           </div>
-          <div className="i-description">
+          {/* <div className="i-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
             dolorem libero aliquam consequatur maxime nam molestiae. Error
             ratione aut quae velit tenetur maiores distinctio blanditiis,
             ducimus quod iste similique totam.
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="i-right">
+        <div className="i-bg"></div>
         <img
           src="https://res.cloudinary.com/dqexqyy2j/image/upload/v1649958239/IMG_7284_vsuzhd-jpg_j8ndyv.jpg"
           alt="my-pic"
