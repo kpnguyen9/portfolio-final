@@ -15,12 +15,26 @@ const Intro = () => {
               <div className="i-title-item">Communicator</div>
             </div>
           </div>
-          {/* <div className="i-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-            dolorem libero aliquam consequatur maxime nam molestiae. Error
-            ratione aut quae velit tenetur maiores distinctio blanditiis,
-            ducimus quod iste similique totam.
-          </div> */}
+          <div className="i-description">
+            <p>
+              I am seeking a full time position as a full-stack web devloper. I
+              really enjoy utilizing and honing my skills with building
+              databases, fetching data, algorithms, and design.
+            </p>
+            <p>
+              Prior to my pursuit of a career as a developer, I worked as a
+              Physical Therapist. It is another passion of mine as I was able to
+              work together with patients as a team to relieve their pain and
+              return to doing things they did prior to injury. Education
+              patients was another focal point during their treatment.
+            </p>
+            <p>
+              In my free time, I enjoy traveling, trying new foods, spending
+              time with my wife and 2 dogs. In addition, recently picked up
+              playing golf for the first time! It's challenging, can also be
+              very rewarding as I put in the time for it.
+            </p>
+          </div>
         </div>
       </div>
       <div className="i-right">
