@@ -8,18 +8,8 @@ import Button from "@mui/material/Button";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
-  };
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
-
   return (
-    <AppBar position="fixed" sx={{ backgroundColor: "#2b3630" }}>
+    <AppBar position="fixed" sx={{ backgroundColor: "#2b3630" }} id="navBar">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
