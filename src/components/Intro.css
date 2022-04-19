@@ -88,7 +88,7 @@
 @media screen and (max-width: 800px) {
   .i {
     flex-direction: column;
-    height: 100vh;
+    height: 1000px;
   }
 
   .i-left-wrapper {
@@ -97,15 +97,6 @@
     align-items: center;
     text-align: center;
     height: 100%;
-  }
-
-  .i-img {
-    width: 40%;
-  }
-
-  .i-bg {
-    width: 80%;
-    position: relative;
   }
 
   .i-title {

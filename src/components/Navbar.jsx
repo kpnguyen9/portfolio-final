@@ -12,21 +12,12 @@ const Navbar = () => {
     <AppBar position="fixed" sx={{ backgroundColor: "#2b3630" }} id="navBar">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Typography
-            variant="h6"
-            noWrap
-            component="div"
-            sx={{ flexGrow: 1, display: { xs: "flex", md: "flex" } }}
-            className="navName"
-          >
-            Kevin Nguyen
-          </Typography>
           <Box
             sx={{
               flexGrow: 1,
               display: { xs: "flex", md: "flex" },
               margin: { xs: "0px" },
-              justifyContent: "right",
+              justifyContent: "left",
             }}
             className="linkTabs"
           >
