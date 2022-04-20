@@ -25,13 +25,13 @@ const Intro = () => {
               Prior to my pursuit of a career as a developer, I worked as a
               Physical Therapist. It is another passion of mine as I was able to
               work together with patients as a team to relieve their pain and
-              return to doing things they did prior to injury. Education
+              return to doing things they did prior to injury. Educating
               patients was another focal point during their treatment.
             </p>
             <p>
               In my free time, I enjoy traveling, trying new foods, spending
-              time with my wife and 2 dogs. In addition, recently picked up
-              playing golf for the first time! It's challenging, can also be
+              time with my wife and 2 dogs. In addition, I recently picked up
+              playing golf for the first time! It's challenging, but can also be
               very rewarding as I put in the time for it.
             </p>
           </div>
