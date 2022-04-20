@@ -27,15 +27,15 @@ export default function MediaCard({
           className="projectImage"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h4" component="div">
             {title}
           </Typography>
           <Box marginBottom="8px">
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="body2" color="text.primary">
               {body}
             </Typography>
           </Box>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="text.primary">
             Used: {usedLanguages}
           </Typography>
           <Box justifyContent="center" margin="5px">
