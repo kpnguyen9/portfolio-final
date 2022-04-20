@@ -1,6 +1,7 @@
 .i {
   display: flex;
-  height: 100vh;
+  height: 100%;
+  color: #2b3630;
 }
 .i-left {
   flex: 1;
@@ -22,7 +23,6 @@
   height: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .i-intro {
@@ -85,10 +85,16 @@
   right: 0;
 }
 
+.i-description {
+  color: black;
+  font-weight: 400;
+}
+
 @media screen and (max-width: 800px) {
   .i {
     flex-direction: column;
     height: 1000px;
+    padding-top: 50px;
   }
 
   .i-left-wrapper {

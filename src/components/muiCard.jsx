@@ -24,6 +24,7 @@ export default function MediaCard({
           height="200"
           image={imageURL}
           alt="projectScreenshot"
+          className="projectImage"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
