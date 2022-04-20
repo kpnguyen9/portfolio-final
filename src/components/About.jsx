@@ -5,9 +5,7 @@ const About = () => {
   return (
     <div className="a" id="about-section">
       <h1 className="a-title">My Skills</h1>
-      <div className="imageList">
-        <ImageCards />
-      </div>
+      <ImageCards />
     </div>
   );
 };
