@@ -4,13 +4,15 @@ export default function ImageCards() {
   return (
     <div className="skills-container">
       {data.map((item) => (
-        <img
-          src={`${item.imageURL}?w=164&h=164&fit=crop&auto=format`}
-          srcSet={`${item.imageURL}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-          alt={item.title}
-          loading="lazy"
-          className="logo"
-        />
+        <div className="imageDiv">
+          <img
+            src={`${item.imageURL}?w=164&h=164&fit=crop&auto=format`}
+            srcSet={`${item.imageURL}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+            alt={item.title}
+            loading="lazy"
+            className="logo"
+          />
+        </div>
       ))}
     </div>
   );
