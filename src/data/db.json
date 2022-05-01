@@ -3,10 +3,18 @@
     {
       "imageURL": "https://res.cloudinary.com/dqexqyy2j/image/upload/v1651195075/Screen_Shot_2022-04-28_at_8.06.39_PM_agaaey.jpg",
       "title": "Kevin's Blog",
-      "body": "React App I created to get a better understanding of React components and hooks. The app features the ability to retrieve all blogs from a database, create blogs, and delete blogs with a chosen author that is also part of the database.",
+      "body": "React App I created to get a better understanding of React components, hooks and Material UI design. The app features the ability to retrieve all blogs from a database, create blogs, and delete blogs with a chosen author that is also part of the database.",
       "used": "JavaScript, React, HTML, CSS, Material UI",
       "gitHubURL": "https://github.com/kpnguyen9/React101/tree/final",
       "id": 2
+    },
+    {
+      "imageURL": "https://res.cloudinary.com/dqexqyy2j/image/upload/v1651378926/Screen_Shot_2022-04-30_at_11.21.36_PM_b2pspl.jpg",
+      "title": "Project Euler Problems",
+      "body": "Come follow my journey of solving challenging Euler problems to hone my skills in creating algorithms. I never thought I would enjoy writing algorithms, but I guess I'm a glutton for punishment.",
+      "used": "My brain!",
+      "gitHubURL": "https://github.com/kpnguyen9/Project-Euler-Problems",
+      "id": 4
     },
     {
       "imageURL": "https://res.cloudinary.com/dqexqyy2j/image/upload/v1649906116/logos/Project%20Screenshots/Screen_Shot_2022-04-13_at_10.14.31_PM_bwp6kn.png",
@@ -23,7 +31,7 @@
       "used": "JavaScript, HTML, CSS, BootStrap",
       "gitHubURL": "https://github.com/kpnguyen9/firstGroupProject",
       "appURL": "https://happy-campers-app-working.netlify.app/",
-      "id": 2
+      "id": 3
     }
   ]
 }
