@@ -1,6 +1,15 @@
 {
   "projects": [
     {
+      "imageURL": "https://res.cloudinary.com/dqexqyy2j/image/upload/v1654224230/Screen_Shot_2022-06-02_at_9.43.18_PM_xs2sku.png",
+      "title": "Kook Boards",
+      "body": "Full Stack MERN app on a team of 3 developers as part of bootcamp capstone project. It is an E-commerce app that allows users to shop for surfing products that features MUI components, product filtering, login/authorization, shopping cart, checkout using Stripe, and order history.",
+      "used": "React, JavaScript, Express, MongoDB, Node, MUI",
+      "gitHubURL": "https://github.com/kpnguyen9/Kook-Shop",
+      "appURL": "https://kookboards.herokuapp.com/",
+      "id": 5
+    },
+    {
       "imageURL": "https://res.cloudinary.com/dqexqyy2j/image/upload/v1651195075/Screen_Shot_2022-04-28_at_8.06.39_PM_agaaey.jpg",
       "title": "Kevin's Blog",
       "body": "React App I created to get a better understanding of React components, hooks and Material UI design. The app features the ability to retrieve all blogs from a database, create blogs, and delete blogs with a chosen author that is also part of the database.",
